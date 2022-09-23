@@ -8,7 +8,7 @@ I’m really glad to share that, this is my second project on __Cadence Virtuoso
 ___Before I start explaining my project in details, you should know a few things !___
 
 ### What is CMOS?
-Complementary-Metal -Oxide-Semiconductor (CMOS) is a type of metal–oxide–semiconductor field-effect-transistor (MOSFET) fabrication process that uses complementary and symmetrical pairs of p-type and n-type MOSFETs for logic functions. CMOS technology is used for constructing integrated circuit (IC) chips, including microprocessors, microcontrollers, memory chips and other digital logic circuits.   
+Complementary Metal Oxide Semiconductor (CMOS) is a type of metal–oxide–semiconductor field-effect-transistor (MOSFET) fabrication process that uses complementary and symmetrical pairs of p-type and n-type MOSFETs for logic functions. CMOS technology is used for constructing integrated circuit (IC) chips, including microprocessors, microcontrollers, memory chips and other digital logic circuits.   
 
 CMOS refers to the two different types of semiconductors each transistor contains — N-type and P-type. N-type semiconductors have a greater concentration of electrons than holes, or places where an electron could exist. P-type semiconductors have a greater concentration of holes than electrons. These two semiconductors work together and may form logic gates based on how the circuit is designed.    
 
