@@ -31,7 +31,7 @@ Here i have use __gpdk90n__ :-
 6. The minimum width of metal utilized for routing is 0.012
 7. DRC and LVS clean (there are no error)
 
-So I designed a Schematic of the CMOS NAND Gate, where the whole thing is based on gpdk90n. I have use 2 pmos for 1v and 2 nmos for 1v. I also designed a symbol of it, so that we can utilise that for further schematic creation.  
+So I designed a Schematic of the CMOS NAND Gate, where the whole thing is based on gpdk90n. I have use 2 pmos for 1v and 2 nmos for 1v. I also designed a symbol of it, so that i can utilise that for further schematic creation.  
 
 The below figure shows a 2-input CMOS NAND Gate. It consists of two PMOS connected in parallel and two NMOS connected in series.
 
