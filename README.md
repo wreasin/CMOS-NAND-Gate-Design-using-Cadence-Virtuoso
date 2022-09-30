@@ -28,7 +28,7 @@ Here i have use __gpdk90n__ :-
     iii ) Noise Response & Noise Figure  
     N.B. I'm measuring here 2 inputs & output as Voltage and Current (I) in Vout & VDD node.
 5. In Layout - Metals Used ( Metal1 ) and Poly Layer
-6. The minimum width of metal utilized for routing is 0.012
+6. The minimum width of metal utilized for routing is 0.12
 7. DRC and LVS clean (there are no error)
 
 So I designed a Schematic of the CMOS NAND Gate, where the whole thing is based on gpdk90n. I have use 2 pmos for 1v and 2 nmos for 1v. I also designed a symbol of it, so that i can utilise that for further schematic creation.  
@@ -43,21 +43,21 @@ The equivalent switching circuit when Va = 0 and Vb = VDD. In this case, PM0 is 
 ![Symbol](https://github.com/wreasin/CMOS-NAND-Gate-Design-using-Cadence-Virtuoso/blob/main/image/Symbol.PNG?raw=true)
 ![Symbol_Scametic](https://github.com/wreasin/CMOS-NAND-Gate-Design-using-Cadence-Virtuoso/blob/main/image/Scametic_Diagram.PNG?raw=true)
 
-#### DC, Transient and Noise Response :
+#### DC, Transient :
 _Here I am doing three types of Analysis - DC, Transient and Noise_.  
-In DC and Transient Analysis i have measured Va, Vb & Out as Voltage, and Current (I) in Vout & VDD node. For Noise Analysis i have measured input & output noise. The plots of _Va_ , _Vb_ and _OUT_ shows the _voltages_, on the otherhand _VDD(I4)_ & _Vout(I4)_ shows the _current (I)_. In Noise Response the plots shows the input and output noise.
+In DC and Transient Analysis i have measured Va, Vb & Out as Voltage, and Current (I) in Vout & VDD node.  The plots of _Va_ , _Vb_ and _OUT_ shows the _voltages_, on the otherhand _VDD(I4)_ & _Vout(I4)_ shows the _current (I)_.  
 ![output](https://github.com/wreasin/CMOS-NAND-Gate-Design-using-Cadence-Virtuoso/blob/main/image/Output.PNG?raw=true)
-![output2](https://github.com/wreasin/CMOS-NAND-Gate-Design-using-Cadence-Virtuoso/blob/main/image/Output_2.PNG?raw=true)
-![noise_output1](https://github.com/wreasin/CMOS-NAND-Gate-Design-using-Cadence-Virtuoso/blob/main/image/Noise(IN,OUT,GND).PNG?raw=true)
-![noise_output2](https://github.com/wreasin/CMOS-NAND-Gate-Design-using-Cadence-Virtuoso/blob/main/image/Noise(IN,OUT).PNG?raw=true)  
+![output2](https://github.com/wreasin/CMOS-NAND-Gate-Design-using-Cadence-Virtuoso/blob/main/image/Output_2.PNG?raw=true) 
 
-#### Noise Figure :  
-For measuring of Noise Figure i had to use PORTS instead of Vpulse.  
+#### Noise Figure and Noise Response :  
+For measuring of Noise Figure and Noise Response i had to use PORTS instead of Vpulse. For Noise Analysis i have measured input & output noise. In Noise Response the plots shows the input and output noise.  
 ![noise_figure_scametic](https://github.com/wreasin/CMOS-NAND-Gate-Design-using-Cadence-Virtuoso/blob/main/image/Noice%20Figure_Scametic.PNG?raw=true)
 ![noise_figure](https://github.com/wreasin/CMOS-NAND-Gate-Design-using-Cadence-Virtuoso/blob/main/image/Noise%20Figure.PNG?raw=true)
+![noise_output1](https://github.com/wreasin/CMOS-NAND-Gate-Design-using-Cadence-Virtuoso/blob/main/image/Noise(IN,OUT,GND).PNG?raw=true)
+![noise_output2](https://github.com/wreasin/CMOS-NAND-Gate-Design-using-Cadence-Virtuoso/blob/main/image/Noise(IN,OUT).PNG?raw=true) 
 
 #### Layout :
-In Layout i have use  Metal1 and Poly Layer. I have use here X & Y snap spacing is 0.01m and also the minimum width of metal utilized for routing is 0.012.  
+In Layout i have use  Metal1 and Poly Layer. I have use here X & Y snap spacing is 0.01m and also the minimum width of metal utilized for routing is 0.12.  
 ![Layout](https://github.com/wreasin/CMOS-NAND-Gate-Design-using-Cadence-Virtuoso/blob/main/image/Layout.PNG?raw=true)  
 
 #### Design Rule Check (DRC)  
